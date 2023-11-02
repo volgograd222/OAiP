@@ -1,7 +1,6 @@
-n = 0
-while True:
-    a = input()
-    if a[0] == '-': n += 1
-    elif a == '36.6':
-        break
-print(n)
+print('Зарплата за месяц')
+c= int(input('»>'))
+print('кол-во отработанных часов в выходные дни')
+a = int(input('»>'))
+print('Размер премии',(c*0.01)*a)
+

@@ -1,9 +1,5 @@
-a = input().split()
-b = int(a[0])
-c = len(a)
-n = 0
-while n != c:
-    if int(b) > int(a[n]): b = int(a[n])
-    else: pass
-    n += 1
-print(b)
+c= input('Оцените развлекательный комплекс:')
+a1 = c.find('весело')
+a2 = c.find('увлекательно')
+a3 = c.find('развлечения')
+print('Результат анализа:', a1, a2, a3)

@@ -1,9 +1,13 @@
-list = list()
-while True:
-    a = int(input())
-    if a > 1000 or a < -1000: break
-    else: list.append(a)
-max1 = max(list)
-list.remove(max1)
-max2 = max(list)
-print(max2)
+price = input('Введите сумму:')
+price = int(price)
+price1 = price%1000
+price2 = price%100
+price3 = price%10
+price4 = price3//1
+price5 = price2//10
+price6 = price1//100
+price7 = price//1000
+print(price4, '-по 1р')
+print(price5, '- по 10р')
+print(price6, '-по 100р')
+print(price7, '-по 1000р')

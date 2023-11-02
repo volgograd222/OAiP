@@ -1,4 +1,4 @@
-while True:
-    a = input()
-    if len(a) != 0: print(len(a))
-    else: break
+a = input('Введите фильм :')
+b = input('Введите кинотеатр :')
+c = input('Введите время :')
+print('Билет на"', a, '" в "', b, '" на ', c, 'забронирован')

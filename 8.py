@@ -1,10 +1,10 @@
-a = input().split()
-b = a[0]
-c = len(a) - 1
-n = 0
-while n != c:
-    if len(b) > len(a[n]): b = a[n]
-    else: pass
-    n += 1
-print(b)
-
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+my_list.insert(1,'привет')
+print(my_list)
+removed = my_list.pop(3)
+print(my_list)
+print(removed)
+print(my_list[1:5])
+my_list.reverse()
+print(my_list)
+my_list_rev = list(reversed(my_list))
